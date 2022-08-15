@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 50px;
+    background-color: rgb(21, 21, 21); 
+    color: rgb(255, 255, 251);
+    position: relative;
+    height: max-content;
+}
+
+.movie-more{
+    padding: 100px;
+    position: absolute;
+    background-color: rgb(21, 21, 21); 
+    color: rgb(255, 255, 251);
+    margin: 0;
+    top: 0%;
+    margin-bottom: 200px;
+}
+
+.text-zone {
+    width: 60%;
+}
+
+.bold {
+    font-weight: bold;
+    color: #0D6EFD; 
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.048);
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+
+.text-poster-zone {
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    flex-wrap: wrap;
+    justify-content :flex-start;
+    align-items: center;
+    padding-top :50px;
+}
+.poster{
+    width: 350px;
+}    
+.hide-button{
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: 0ch;
+    background-image: url("closenormal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left :125px; 
+
+}
+.text-zone p {
+    margin-bottom: 40px;
+}
+.hide-button:hover{
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: 0ch;
+    background-image: url("closehover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-container {
+    position: absolute;
+    top:1100px; 
+    margin-bottom: 200px;
+}
+
+h2 {
+    position: absolute;
+    top : 1000px; 
+}
+
+.award-zone{
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    flex-wrap: wrap;
+    justify-content :center;
+    align-items: center;
+    padding-top :50px;
+    width: 200px;
+
+}
